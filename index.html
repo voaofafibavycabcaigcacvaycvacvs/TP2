@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/Freddle_tweaking.gif" type="image/gif" >
+</head>
+<body>
+    <section id="accueil">
+        <p>TP2-Automne 2024</p>
+        <p>Informations sur mon jeu préféré!</p>
+        <p>Thomas Gallant</p>
+        <p>Techniques d'intégration multimédia</p>
+        <p>Collège de Maisonneuve</p>
+        <!-- lien github -->
+        <a href="https://voaofafibavycabcaigcacvaycvacvs.github.io/TP2/">Lien Github</a> 
+    </section>
+    <div id="tout">
+    <section id="SectionMenu">
+        <nav>
+            <img id="imgnav" src="./images/Freddle_tweaking.gif" alt="">
+            <a href="#accueil">Accueil</a>
+            <a href="#formulaire">Formulaire</a>
+            <a href="#SectionTableau">Tableau</a>
+            <a href="#Article">Articles</a>
+            <a href="#Galerie">Galerie de jeux</a>
+        </nav>
+    </section>
+    <section id="formulaire"></section>
+    <form action="">
+        <h1>Formulaire d'inscription</h1>
+        <label for="nom">Prénom:</label>
+        <input type="text" id="nom" name="Nom">
+        <label for="adresse">Adresse courriel:</label>
+        <input type="text" id="adresse" name="Adresse">
+        <label for="age">Âge:</label>
+        <input type="number" id="age" name="Âge" />
+        <label for="password">Mot de passe:</label>
+        <input type="text" id="password" name="Password">
+        <!-- Boutton pour soumettre le formulaire -->
+        <input type="submit" id="btn_submit" value="Soumettre" />
+        <form action="traiter_form.php">
+    </form>
+    <section id="SectionTableau">
+        <table>
+            <tr>
+                <th>Images</th>
+                <th>Types</th>
+                <th>apparitions</th>
+                <th>caractéristiques</th>
+            </tr>
+            <tr>
+                <td><img class="imagetable" src="./images/FreddyFnaf1.png" alt="FreddyFnaf1"></td>
+                <td>Classique</td>
+                <td>Premier Jeu</td>
+                <td>Basique et simple</td>
+            </tr>
+            <tr>
+                <td><img class="imagetable" src="./images/BonnieFnaf2.png" alt="BonnieFnaf2"></td>
+                <td>Jouet (Toys)</td>
+                <td>Deuxième Jeu</td>
+                <td>Moins épeurant</td>
+            </tr>
+            <tr>
+                <td><img class="imagetable" src="./images/MangleFanf3.png" alt=""></td>
+                <td>Fantôme</td>
+                <td>Troisième Jeu</td>
+                <td>Ils sont brulés et n'existe pas.</td>
+            </tr>
+            <tr>
+                <td><img class="imagetable" src="./images/FredbearFnaf4.png" alt=""></td>
+                <td>Cauchemar (Nightmare)</td>
+                <td>Quatrième Jeu</td>
+                <td>Très épeurant et beaucoup de dents.</td>
+            </tr>
+            <tr>
+                <td><img class="imagetable" src="./images/FoxyFnaf5.png" alt=""></td>
+                <td>Funtime (aucune traduction)</td>
+                <td>Cinquième Jeu</td>
+                <td>Ils sont tous majoritairement blanc.</td>
+            </tr>
+        </table>
+    </section>
+    <section id="Article">
+        <div id="contArticle">
+            <div id="articlegauche">
+                <h2>L'histoire</h2>
+                <img id="biteof83" src="./images/biteof83.gif" alt="">
+                <p class="textearticle">Dans l'histoire, l'enfant du méchant principal, se fait mordre par un des robots. Il s'est fait mordre, car il avait toujours peur de ses robots et son frère a trouvé drôle de l'approcher de la bouche. Cette action a enragé William Afton (le méchant). Il a commencé à expérimenter et à tuer des enfants et à les mettre dans les robots. Ces enfants, se sont mis à contrôler les robots. C'est de ses robots dont nous devons nous défendre dans les jeux.</p>
+            </div>
+            <div id="articledroit">
+                <h2>William Afton</h2>
+                <img id="springtrap" src="./images/Springtrap.gif" alt="">
+                <p class="textearticle">William Afton, qui est l'antagoniste de la série, est un personnage avec une histoire très complexe. Ce méchant a décidé de tuer des enfants et de les mettres dans le corps des robots. Ce sont ses enfants qui les contrôlent et qui attaquent le garde. William Afton a vu les fantômes et s'est caché dans un habit de lapin. Cet habit s'est refermé sur lui et l'a écrasé dans le costume. Remplacer ses os par des parties robotiques. Il est le seul méchant qui peut te tuer dans le troisième jeu..</p>
+            </div>
+        </div>
+    </section>
+    <section id="Video">
+        <h1>Vidéo sur le mode de jeu le plus dur de Five Nights at Freddy's</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BTV1fto4fBg?si=f539OQfrhZqcZRlK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Cette vidéo est un guide pour aider les joueurs à réussir ce mode de jeu. Ce tutoriel est complet et est très utile.</p>
+    </section>
+    <section id="galerie">
+        <h1>Les jeux principaux de la série</h1>
+        <div id="galerieimage">
+        <img src="images/fnaf1.png" alt="Fnaf 1">
+        <img src="images/fnaf2.jpg" alt="Fnaf 2">
+        <img src="images/fnaf3.jpg" alt="FNaf 3">
+        <img src="images/fnaf4.png" alt="Fnaf 4">
+        <img src="images/fnaf5.jpg" alt="Fnaf 5">
+    </div>
+    </section>
+</div>
+    <footer>
+        <p>3800 Rue Sherbrooke E, Montreal QC H1X2A2</p>
+    <a href="https://en.wikipedia.org/wiki/Markiplier">Markiplier</a>
+    <div>
+        <img src="./images/facebook_32.png" alt="facebook">
+        <img src="./images/instagram_32.png" alt="instagram">
+        <img src="./images/youtube_32.png" alt="youtube">
+    </div>
+        <h4>Avis de confidentialité</h4>
+        <p>Aucune copie de cette page n'est tolérée.</p>
+    </footer>
+</body>
+</html>
